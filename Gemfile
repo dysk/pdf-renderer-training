@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
-gem "rails", "3.0.20"
-gem "capybara", ">= 0.4.0"
+gem "rails"
+gem "capybara"
 gem "sqlite3"
 gem "prawn"
 
