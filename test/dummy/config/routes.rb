@@ -1,5 +1,7 @@
 Dummy::Application.routes.draw do
   get "/home(.:format)", :to => "home#index", :as => :home
+  get "/something(.:format)", :to => "home#something", :as => :something
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
